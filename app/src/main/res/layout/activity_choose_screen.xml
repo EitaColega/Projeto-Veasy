@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamesplano"
+    tools:context=".MainActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEASY"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/chakraregular"
+            android:textColor="#FF0000"
+            android:translationX="-2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEASY"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/chakraregular"
+            android:textColor="#00FFFF"
+            android:translationX="2dp" />
+
+        <TextView
+            android:id="@+id/textVeasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEASY"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/chakraregular"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:elevation="8dp"
+        app:cardBackgroundColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="421dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="11sp"
+                app:cardBackgroundColor="#02D7F2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="-19sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="@font/chakraregular"
+                android:text="VEASY"
+                android:textColor="#02D7F2"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="177dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Competição, por gamers, entre gamers, para gamers"
+                android:textColor="#02D7F2"
+                android:textSize="25sp" />
+
+            <!-- botão de login -->
+
+            <Button
+                android:id="@+id/RGconfirmar3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70sp"
+                android:backgroundTint="@color/Darkblue"
+                android:fontFamily="@font/chakraregular"
+                android:text="LOGIN"
+                android:textColor="@color/Blue"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <!-- botaõ de registro -->
+
+            <Button
+                android:id="@+id/RGconfirmar2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="11sp"
+                android:backgroundTint="@color/Darkblue"
+                android:fontFamily="@font/chakraregular"
+                android:text="REGISTRAR-SE"
+                android:textColor="@color/Blue"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
