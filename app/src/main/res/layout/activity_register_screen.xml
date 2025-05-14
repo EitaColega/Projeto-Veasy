@@ -100,9 +100,8 @@
                 android:layout_marginTop="10sp"
                 android:backgroundTint="#02D7F2"
                 android:fontFamily="@font/chakraregular"
-                android:inputType="textPassword"
-                android:text="."
-                android:textColor="@color/black" />
+                android:inputType="text|textPersonName"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -121,9 +120,8 @@
                 android:layout_marginTop="10sp"
                 android:backgroundTint="#02D7F2"
                 android:fontFamily="@font/chakraregular"
-                android:inputType="textPassword"
-                android:text="."
-                android:textColor="@color/black" />
+                android:inputType="text|textEmailAddress"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/rgsenha"
@@ -144,8 +142,7 @@
                 android:backgroundTint="#02D7F2"
                 android:fontFamily="@font/chakraregular"
                 android:inputType="textPassword"
-                android:text="."
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -165,8 +162,7 @@
                 android:backgroundTint="#02D7F2"
                 android:fontFamily="@font/chakraregular"
                 android:inputType="textPassword"
-                android:text="."
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
             <!-- Textview aviso senhas não coincidem -->
 

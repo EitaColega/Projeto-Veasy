@@ -103,7 +103,7 @@
                 android:fontFamily="@font/chakraregular"
                 android:inputType="textPersonName"
                 android:text="."
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textColorLink="#FFFCFC" />
 
             <TextView
@@ -124,8 +124,7 @@
                 android:backgroundTint="#02D7F2"
                 android:fontFamily="@font/chakraregular"
                 android:inputType="textPassword"
-                android:text="."
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
             <!-- botão login -->
 
