@@ -5,15 +5,15 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class RegistroActivity2 : AppCompatActivity() {
+class RegistroActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_screen2_riotid)
+        setContentView(R.layout.activity_register_screen3)
 
 
-        val btn_conf_riot_id = findViewById<TextView>(R.id.btn_conf_riot_id)
-        btn_conf_riot_id.setOnClickListener {
-            val intent = Intent(this, RegistroActivity3::class.java)
+        val btnconfirmar2 = findViewById<TextView>(R.id.RGconfirmar2)
+        btnconfirmar2.setOnClickListener {
+            val intent = Intent(this, MainHomeActivity::class.java)
             startActivity(intent)
         }
 

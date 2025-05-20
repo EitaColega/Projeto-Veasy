@@ -16,15 +16,18 @@
         <activity android:name=".RecuperarSenhaActivity3" />
         <activity android:name=".RecuperarSenhaActivity2" />
         <activity android:name=".RecuperarSenhaActivity" />
+        <activity android:name=".RegistroActivity3" />
         <activity android:name=".RegistroActivity2" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainHomeActivity" />
+        <activity android:name=".MainGamesActivity"/>
+        <activity android:name=".MainOptionsActivity"/>
         <activity
             android:name=".splash_screen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".EscolhaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

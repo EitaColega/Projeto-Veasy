@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class RecuperarSenhaActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_password_recovery_scream3)
+        setContentView(R.layout.activity_password_recovery_screen3)
 
         val confirmarCodigoSenha = findViewById<Button>(R.id.confirmarCodigoSenha)
         confirmarCodigoSenha.setOnClickListener {

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_options_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu">
+
+
+    <Button
+        android:id="@+id/btn_privacidade"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       PRIVACIDADE"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/btn_termos9"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       EM BREVE!"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <Button
+        android:id="@+id/btn_em_breve"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       EM BREVE!"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/btn_SAIR"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       SAIR "
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <Button
+        android:id="@+id/btn_termos"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       TERMOS DE USO"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <Button
+        android:id="@+id/btn_contato"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="#014549"
+        android:fontFamily="@font/chakraregular"
+        android:gravity="left|center_vertical"
+        android:text="       CONTATO"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="19sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <view
+        android:id="@+id/view"
+        class="com.google.android.material.appbar.AppBarLayout"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-1500dp"
+        android:background="@drawable/bordas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="303dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/avatarImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ratodoveasy" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="G4BIRU"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ONLINE"
+                    android:textColor="#00FF00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/userQuote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="“PEGUE...”"
+                    android:textColor="@color/Blue"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/closeButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="22dp"
+                app:tint="#CCCCCC" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/winStreak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="WIN STREAK: 12"
+            android:textColor="#00FFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-30dp"
+            android:alpha="0.3"
+            android:backgroundTint="#00EEFF"
+            app:cornerRadius="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Darkblue"
+            android:text="HOME"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+        <Button
+            android:id="@+id/btnGames"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Darkblue"
+            android:text="GAMES"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+        <Button
+            android:id="@+id/btnOptions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Darkblue"
+            android:text="OPTIONS"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+    </LinearLayout>
+
+    <view
+        android:id="@+id/view3"
+        class="com.google.android.material.appbar.AppBarLayout"
+        android:layout_width="281dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.1"
+        android:background="@drawable/bordas"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_termos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/riot_icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chakraregular"
+        android:text="CONFIGURAÇÕES"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

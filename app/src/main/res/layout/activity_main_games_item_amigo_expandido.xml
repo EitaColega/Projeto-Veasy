@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Darkblue"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgAmigo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/borda"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gabiru" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="G4BIRU"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ONLINE"
+        android:textColor="#00FFAA" />
+
+    <TextView
+        android:id="@+id/frase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pegue..."
+        android:textColor="#AAAAAA" />
+
+    <TextView
+        android:id="@+id/winStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="WIN STREAK: 12"
+        android:textColor="#00FFAA" />
+
+    <Button
+        android:id="@+id/btnDesafiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#000000"
+        android:text="DESAFIAR"
+        android:textColor="#00FFFF" />
+</LinearLayout>

@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class RecuperarSenhaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_password_recovery_scream)
+        setContentView(R.layout.activity_password_recovery_screen)
 
         val brnEnviarEmail = findViewById<Button>(R.id.EnviarEmail)
         brnEnviarEmail.setOnClickListener {
